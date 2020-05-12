@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Color changing using Radio Button</title>
+	<script type="text/javascript">
+		function changecolor(c)
+		{
+
+			document.bgColor=c;
+		}
+	</script>
+</head>
+<body>
+	<center>
+			<h1>Select any one to change color</h1>
+		<form action="">
+		<table>
+			<tr>
+				<td>
+					<input type="radio" name="color" value="red" onclick="return changecolor(value)">Red
+				</td>
+			</tr>
+			<tr>
+				<td>
+					<input type="radio" name="color" value="blue" onclick="return changecolor(value)">Blue
+				</td>
+			</tr>
+			<tr>
+				<td>
+					<input type="radio" name="color" value="green" onclick="return changecolor(value)">green
+				</td>
+			</tr>
+			<tr>
+				<td>
+					<input type="radio" name="color" value="orange" onclick="return changecolor(value)">Orange
+				</td>
+			</tr>
+			<tr>
+				<td>
+					<input type="radio" name="color" value="cyan" onclick="return changecolor(value)">Cyan
+				</td>
+			</tr>
+			<tr>
+				<td>
+					<input type="radio" name="color" value="pink" onclick="return changecolor(value)">Pink
+				</td>
+			</tr>
+			<tr>
+				<td>
+					<input type="radio" name="color" value="yellow" onclick="return changecolor(value)">Yellow
+				</td>
+			</tr>
+		</table>
+		</form>
+	</center>
+</body>
+</html>

@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Simple Calculator</title>
+	<script src="SimpleCalculator.js"></script>
+</head>
+<body>
+	<center>
+		<table>
+			<h1>Calculator</h1>
+			<table>
+				<tr>
+				<td>Enter First Number</td>
+				<td>Enter Second Number</td>
+				</tr>
+				<tr>
+				<td><input type="text" name="x" id="x" value="0"></td>
+				<td><input type="text" name="y" id="y" value="0"></td>
+				</tr>
+			</table>
+			<table>
+				<tr>
+				<td><input type="text" name="result" id="result" value="Result"  readonly></td>
+				</tr>
+			</table>
+			<table>
+				<tr>
+				<td><input type="button" name="add" id="add" value="+" onclick="return sum();">&nbsp</td>
+				<td><input type="button" name="substract" id="substract" value="-" onclick="return substract();">&nbsp</td>
+				<td><input type="button" name="multiply" id="multiply" value="*" onclick="return multiply();">&nbsp</td>
+				<td><input type="button" name="divide" id="divide" value="/" onclick="return divide();">&nbsp</td>
+				<td><input type="button" name="modulo" id="modulo" value="%" onclick="return modulo();"></td>
+				</tr>
+			</table>
+		</table>
+	</center>
+</body>
+</html>
